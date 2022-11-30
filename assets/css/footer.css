@@ -1,11 +1,41 @@
 footer{
     background-color: #141414;
     color: #bcbcbc;
-    padding: 85px 0;
+    padding: 85px 16px;
+    overflow: hidden;
 }
 
 footer li{
     font-weight: 600;
     margin-bottom: 5px;
     letter-spacing: 1px;
+}
+
+@media (max-width: 1199px){
+    footer .right{
+        margin-left: 0!important;
+    }
+}
+
+@media (max-width: 1024px){
+    footer .right{
+        margin-left: 0!important;
+    }
+
+    footer ul{
+        padding: 0;
+    }
+
+    footer .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer > div div:nth-child(3) .wrap{
+        padding: 0!important;
+    }
+
+    footer > div div:nth-child(3){
+        margin-left: 0!important;
+    }
 }

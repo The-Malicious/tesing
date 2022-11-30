@@ -8,7 +8,7 @@
 
     <!-- =========== All css styles are here =============> -->
 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -33,35 +33,47 @@
 
     <header>
         <div class="opacity"></div>
-        <div class="col-md-8 h-100 mx-auto">
+        <div class="col-xl-8 h-100 mx-auto">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
+                <div class="container-fluid px-3">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/img/logo/logo@3x.png" alt="">
                     </a>
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#">work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#">process</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#">service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#">testimonial</a>
-                        </li>
-                        <li class="nav-item me-0">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#">contact</a>
-                        </li>
-                    </ul>
+                    <div class="menu-bar">
+                        <span class="menu-icon d-flex justify-content-center align-items-center">
+                            <i class="bi bi-list"></i>
+                        </span>
+                    </div>
+                    <div class="menu">
+                        <div class="close">
+                            <span class="close-icon d-flex justify-content-center align-items-center">
+                                <i class="bi bi-x"></i>
+                            </span>
+                        </div>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link text-uppercase" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" aria-current="page" href="#">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" aria-current="page" href="#">work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" aria-current="page" href="#">process</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" aria-current="page" href="#">service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" aria-current="page" href="#">testimonial</a>
+                            </li>
+                            <li class="nav-item me-0">
+                                <a class="nav-link text-uppercase" aria-current="page" href="#">contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
 
@@ -87,7 +99,7 @@
 
     <div class="main mt-5">
         <!-- ==========A B O U T   S E C T I O N========= -->
-        <div class="col-md-8 mx-auto">
+        <section class="col-xl-8 mx-auto">
             <div class="about">
                 <div class="heading">
                     <h3 class="text-capitalize text-center">about us</h3>
@@ -101,10 +113,10 @@
                     <img src="./assets/img/signature.png" alt="">
                 </div>
             </div>
-        </div>
+        </section>
         <!-- =========P R O F E S S I O N A L   S E C T I O N======== -->
-        <div class="professinol-sec mt-5">
-            <div class="col-md-8 mx-auto h-100">
+        <section class="professinol-sec mt-5 px-3">
+            <div class="col-xl-8 mx-auto h-100">
                 <div class="col-md-6 h-100 d-flex flex-column justify-content-center">
                     <div class="content">
                         <div class="heading mb-4">
@@ -142,11 +154,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- ==========O U R   S T A T S   S E C T I O N S=========== -->
-        <div class="stats-sec d-flex align-items-center">
-            <div class="col-md-8 mx-auto d-flex justify-content-between">
-                <div class="col-md-3">
+        <section class="stats-sec d-flex align-items-center px-3">
+            <div class="col-xl-8 col-12 mx-auto d-flex flex-wrap justify-content-between">
+                <div class="col-md-3 col-6 stats">
                     <div class="wrap d-flex align-items-center">
                         <div class="icon">
                             <img src="./assets/img/icons/pe-7s-portfolio.png" alt="">
@@ -159,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6 stats">
                     <div class="wrap d-flex align-items-center">
                         <div class="icon">
                             <img src="./assets/img/icons/pe-7s-clock.png" alt="">
@@ -172,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6 stats">
                     <div class="wrap d-flex align-items-center">
                         <div class="icon">
                             <img src="./assets/img/icons/pe-7s-star.png" alt="">
@@ -185,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6 stats">
                     <div class="wrap d-flex align-items-center">
                         <div class="icon">
                             <img src="./assets/img/icons/pe-7s-like.png" alt="">
@@ -199,48 +211,48 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- =========P R O D U C T   S E C T I O N S========== -->
-        <div class="products-sec">
+        <section class="products-sec">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <img src="./assets/img/1.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <img src="./assets/img/2.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <img src="./assets/img/3.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <img src="./assets/img/4.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <img src="./assets/img/2.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <img src="./assets/img/1.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <img src="./assets/img/4.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <img src="./assets/img/3.png" alt="">
                     </div>
@@ -249,9 +261,9 @@
             <div class="product-load-btn-sec d-flex flex-column justify-content-center">
                 <span class="btn mx-auto">load more work</span>
             </div>
-        </div>
+        </section>
         <!-- ========O U R   W O R K   P R O C E S S======== -->
-        <div class="col-md-8 mx-auto my-5">
+        <section class="col-xl-8 mx-auto my-5">
             <div class="about our-work-process">
                 <div class="heading">
                     <h3 class="text-capitalize text-center">Our Work Process</h3>
@@ -264,11 +276,11 @@
             <div class="video-sec mt-4">
                 <img src="./assets/img/video.png" alt="" class="img-fluid">
             </div>
-        </div>
+        </section>
         <!-- =============W H A T   W E   D O========== -->
-        <div class="what-we-do-sec">
+        <section class="what-we-do-sec px-3">
             <div class="row m-0">
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <div class="img-sec d-flex flex-column align-items-center">
                             <img src="./assets/img/icons/pe-7s-diamond.png" alt="">
@@ -284,7 +296,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <div class="img-sec d-flex flex-column align-items-center">
                             <img src="./assets/img/icons/pe-7s-arc.png" alt="">
@@ -300,7 +312,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <div class="img-sec d-flex flex-column align-items-center">
                             <img src="./assets/img/icons/pe-7s-phone.png" alt="">
@@ -316,7 +328,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <div class="img-sec d-flex flex-column align-items-center">
                             <img src="./assets/img/icons/pe-7s-joy.png" alt="">
@@ -334,7 +346,7 @@
                 </div>
             </div>
             <div class="row m-0 mt-5 pt-5">
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <div class="img-sec d-flex flex-column align-items-center">
                             <img src="./assets/img/icons/pe-7s-plane.png" alt="">
@@ -350,7 +362,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <div class="img-sec d-flex flex-column align-items-center">
                             <img src="./assets/img/icons/pe-7s-star-dark.png" alt="">
@@ -366,7 +378,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <div class="img-sec d-flex flex-column align-items-center">
                             <img src="./assets/img/icons/pe-7s-magic-wand.png" alt="">
@@ -382,7 +394,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="wrap">
                         <div class="img-sec d-flex flex-column align-items-center">
                             <img src="./assets/img/icons/pe-7s-paint-bucket.png" alt="">
@@ -399,10 +411,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- ============t e s t i m o n i a l   s e c t i o n======== -->
-        <div class="testimonial-sec">
-            <div class="col-md-8 mx-auto my-5">
+        <section class="testimonial-sec">
+            <div class="col-xl-8 mx-auto my-5">
                 <div class="owl-carousel owl-theme testimonial">
                     <div class="item">
                         <div class="text">
@@ -430,9 +442,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- ===========B R A N D   L O G O   S E C T I O N======= -->
-        <div class="brand-logo-sec">
+        <section class="brand-logo-sec">
             <div class="owl-carousel owl-theme brannd-logo-slider">
                 <div class="item">
                     <div class="img-sec">
@@ -465,14 +477,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
     <!-- ============F O O T E R   S E C T I O N========== -->
 
     <footer>
-        <div class="col-md-8 h-100 mx-auto d-flex justify-content-between">
-            <div class="col-md-3">
+        <div class="col-xl-8 mx-auto d-flex flex-wrap justify-content-between">
+            <div class="col-md-2 col-12 left">
                 <div class="wrap">
                     <div class="heading">
                         <h4 class="text-white">Piroll Design, Inc.</h4>
@@ -481,46 +493,44 @@
                         Designed by robirurk.</div>
                 </div>
             </div>
-            <div class="d-flex justify-content-between w-100 ms-5">
-                <div class="col-md-3">
-                    <div class="wrap">
-                        <ul>
-                            <li>hello@pirolltheme.com</li>
-                            <li>
-                                <a href="tel:+44987065908">+44 987 065 908</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="col-md-2 col-sm-6 col-12">
+                <div class="wrap">
+                    <ul>
+                        <li>hello@pirolltheme.com</li>
+                        <li>
+                            <a href="tel:+44987065908">+44 987 065 908</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-3 ms-5">
-                    <div class="wrap ps-5">
-                        <ul>
-                            <li>Project</li>
-                            <li>About</li>
-                            <li>Services</li>
-                            <li>Carreer</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-12 ms-5">
+                <div class="wrap ps-5">
+                    <ul>
+                        <li>Project</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Carreer</li>
+                    </ul>
                 </div>
-                <div class="col-md-3">
-                    <div class="wrap">
-                        <ul>
-                            <li>News</li>
-                            <li>Events</li>
-                            <li>Contact</li>
-                            <li>Legals</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-12">
+                <div class="wrap">
+                    <ul>
+                        <li>News</li>
+                        <li>Events</li>
+                        <li>Contact</li>
+                        <li>Legals</li>
+                    </ul>
                 </div>
-                <div class="col-md-3">
-                    <div class="wrap">
-                        <ul>
-                            <li>Facebook</li>
-                            <li>Twitter</li>
-                            <li>Instagram</li>
-                            <li>Dribbble</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-12">
+                <div class="wrap">
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Dribbble</li>
+                    </ul>
                 </div>
             </div>
         </div>
