@@ -1,118 +1,183 @@
-.professinol-sec{
-    height: 570px;
-    background-image: url('../img/banner/progress-banner.png');
-    background-repeat: no-repeat;
-    background-size: auto;
-    position: relative;
-    overflow: hidden;
-    background-position-x: right;
+.professinol-sec {
+  height: 570px;
+  background-image: url("../img/banner/progress-banner.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  overflow: hidden;
+  background-position-x: right;
 }
 
-.professinol-sec .progress{
-    height: 4px;
+.professinol-sec .progress {
+  height: 4px;
 }
 
-.professinol-sec .progress .progress-bar{
-    background-color: #10c9c3;
+.professinol-sec .progress .progress-bar {
+  background-color: #10c9c3;
 }
 
 /* -stats section style */
 
 .stats-sec {
-    background-color: #10c9c3;
-    height: 240px;
+  background-color: #10c9c3;
+  height: 240px;
 }
 
-.stats-sec .text .heading h5{
-    color: white;
-    font-weight: 700;
+.stats-sec .text .heading h5 {
+  color: white;
+  font-weight: 700;
 }
 
-.stats-sec .text .text{
-    color: white;
-    font-weight: 600;
+.stats-sec .text .text {
+  color: white;
+  font-weight: 600;
 }
 
 /* ---------product section-------- */
-.products-sec .row{
-    width: 100%;
-    margin: 0;
+.products-sec .row {
+  width: 100%;
+  margin: 0;
 }
 
-.products-sec .row > div{
-    padding: 0;
+.products-sec .row > div {
+  padding: 0;
 }
 
-.products-sec img{
+.products-sec img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-load-btn-sec {
+  height: 100px;
+  background-color: #f5f5f5;
+}
+
+.product-load-btn-sec .btn {
+  background-color: transparent !important;
+  color: #8e8e8e !important;
+  font-weight: 700;
+  border: 0 !important;
+}
+
+.what-we-do-sec {
+  margin: 80px 0;
+  padding: 80px 0;
+}
+
+.what-we-do-sec {
+  background-color: #f5f5f5;
+}
+
+.what-we-do-sec .heading {
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+
+.what-we-do-sec .heading h5 {
+  font-weight: 700;
+}
+
+.what-we-do-sec .text {
+  color: #787878;
+}
+
+.testimonial-sec {
+  background-color: #10c9c3;
+  padding: 80px 0;
+  color: white;
+}
+
+.testimonial-sec h4 {
+  font-size: 24px;
+}
+
+.brand-logo-sec .img-sec {
+  height: 256px;
+  width: 256px;
+}
+
+.brand-logo-sec .img-sec img {
+  width: 100%;
+  height: 100%;
+}
+
+.form-sec {
+  background-color: #f5f5f5;
+}
+
+form.form {
+  width: 671px;
+  margin: auto;
+}
+
+form.form input,
+form.form textarea {
+  width: 100%;
+  padding: 14px 20px;
+  border: 0;
+  outline: 0;
+}
+
+form.form textarea {
+  height: 170px;
+}
+
+@media (max-width: 767px) {
+  .professinol-sec {
+    position: relative;
+  }
+
+  .professinol-sec .opacity {
+    background-color: rgba(0, 0, 0, 0.509);
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
+    z-index: 1;
+  }
 
-.product-load-btn-sec{
-    height: 100px;
-    background-color: #f5f5f5;
-}
-
-.product-load-btn-sec .btn{
-    background-color: transparent!important;
-    color: #8e8e8e!important;
-    font-weight: 700;
-    border: 0!important;
-}
-
-.what-we-do-sec{
-    margin: 80px 0;
-    padding: 80px 0;
-}
-
-.what-we-do-sec{
-    background-color: #f5f5f5;
-}
-
-.what-we-do-sec .heading{
-    margin-top: 22px;
-    margin-bottom: 12px;
-}
-
-.what-we-do-sec .heading h5{
-    font-weight: 700;
-}
-
-.what-we-do-sec .text{
-    color: #787878;
-}
-
-.testimonial-sec{
-    background-color: #10c9c3;
-    padding: 80px 0;
+  .professinol-sec .content {
+    position: relative;
     color: white;
-}
+    z-index: 2;
+  }
 
-.testimonial-sec h4{
-    font-size: 24px;
-}
+  .stats-sec {
+    height: auto;
+    padding: 40px 16px;
+  }
 
-.brand-logo-sec .img-sec{
-    height: 256px;
-    width: 256px;
-}
+  .stats-sec .stats {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-.brand-logo-sec .img-sec img{
+  form.form {
     width: 100%;
-    height: 100%;
-}
+    margin: auto;
+  }
 
-@media (max-width: 767px){
+  form.form div:first-child {
+    display: block !important;
+  }
 
-    .stats-sec{
-        height: auto;
-        padding: 40px 16px;
-    }
+  form.form input {
+    margin: 14px 0 !important;
+  }
 
-    .stats-sec .stats{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+  form.form input:nth-child(2) {
+    margin-bottom: 0 !important;
+  }
+
+  .what-we-do-sec .row:nth-child(2) {
+    margin-top: 0 !important;
+  }
+
+  .what-we-do-sec .row > div {
+    margin-top: 35px;
+  }
 }
